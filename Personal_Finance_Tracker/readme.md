@@ -19,12 +19,19 @@ Ensure you have the following installed:
 - Python 3.x
 - pip (Python package manager)
 
+### Additional Python Libraries
+
+- Pandas
+- Matplot
+  
 ### Steps to Install and Run
 
 1. Clone the repository:
    ```sh
-   git clone <your-repo-url>
-   cd personal-finance-tracker
+   git clone https://github.com/Saurabhhhhhh/Python-Projects
+   cd Python-Projects
+   git sparse-checkout set Personal_Finance_Tracker
+   cd Personal_Finance_Tracker
    ```
 2. Install required dependencies:
    ```sh
